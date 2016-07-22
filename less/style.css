@@ -1,0 +1,303 @@
+.ad {
+	margin:30px 0 0 50px;
+}
+
+.ad-box {
+	border:1px solid #dddddd;
+	height: 100%;
+}
+
+.ad-section {
+	background-color:#acacac;
+	margin: 0 0 10px 0;
+	padding:10px 10px 10px 15px;
+	border:none; 
+}
+
+.ad-section p {
+	display: inline;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.ad-section div {
+	display: inline;
+	float: right;
+}
+
+.ad-section button i {
+	margin: 0 0 0 10px;
+}
+
+.ad-section a i/*:nth-child(2)*/ {
+	font-size: 20px;
+	color: #fff;
+	margin: 0 0 0 0;
+	padding: 0 7px 0 10px;
+}
+
+.entry-bg {
+	padding: 0 10px 0 10px;
+}
+
+.ad-entry {
+	background-color: #fff;
+	border:1px solid #dddddd;
+	border-radius: 5px;
+	padding: 0 0 0 0;
+	margin: 0 0 10px 0;
+	/*height: 100%;*/
+}
+
+.ad-entry div:first-child {
+/*	position: relative;*/
+	float: left;
+	margin:20px 20px;
+	text-align: center;
+}
+
+.ad-entry ul {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 0 0 0;
+}
+
+.ad-entry ul li p {
+	color:#919191;
+	margin: 0 0 5px 0;
+	font-style: italic;
+	font-size: 12px;
+	padding: 10px 0 0 0;
+}
+
+.ad-entry ul li img {
+	width: 100px;
+	height: 40px;	
+	margin: 0 0 3px 0;
+}
+
+.ad-entry ul li a {
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0 0 0 20px;
+}
+
+.ad-entry button {
+	float:right;
+	vertical-align: middle;
+	margin: 35px 15px 0 0;
+}
+
+.ad-entry button i {
+	padding: 0 10px 0 0;
+}
+
+.ad-new {
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 0 15px 0;
+	padding: 20px 0 10px 0;
+
+}
+
+.ad-new-bg {
+	text-align: center;
+}
+
+.ad-new a {
+	text-decoration: none;
+	color: #919191;
+	padding: 15px 90px 15px 84px;
+	border: 2px solid #dddddd;
+	border-style: dashed;
+	border-radius: 7px;
+	margin: 10px 0 0 0;
+
+}
+
+.ad-new i {	
+	margin: 0 20px 0 0;
+}
+
+/*SUBMIT*/
+
+.ad {
+	margin:30px 0 0 50px;
+}
+
+.ad-box {
+	border:1px solid #dddddd;
+	height: 100%;
+}
+
+.submit-section {
+	background-color:#acacac;
+	padding:10px 10px 10px 15px;
+	border:none; 
+}
+
+.submit-section p {
+	display: inline;
+	vertical-align: middle;	
+	color: #fff;
+}
+
+.submit-section div {
+	display: inline;
+	float: right;
+}
+
+.submit-section button i {
+	margin: 0 0 0 10px;
+}
+
+.submit-section a i/*:nth-child(2)*/ {
+	font-size: 20px;
+	color: #fff;
+	margin: 0 0 0 0;
+	padding: 0 7px 0 10px;
+}
+
+.submit-entry {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0 0 0 0;
+}
+
+
+.submit-entry div:first-child {
+	float: left;
+	text-align: center;
+}
+
+.ad-name {
+	margin:20px 20px 0 20px;
+}
+
+.ad-content {
+	padding: 0 20px 0 10px;
+	margin: 35px 0 0 0;
+	font-style: italic;
+	color: #acacac;
+}
+
+.submit-entry ul {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 0 0 0;
+}
+
+.submit-entry ul li p {
+	color:#919191;
+	margin: 0 0 5px 0;
+	font-style: italic;
+	font-size: 12px;
+	padding: 10px 0 0 0;
+}
+
+.submit-entry ul li img {
+	width: 100px;
+	height: 40px;	
+	margin: 0 0 3px 0;
+}
+
+.submit-entry ul li a {
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0 0 0 20px;
+}
+
+.submit-info {
+	border:1px solid #dddddd;
+	padding: 0 0 15px 0;
+}
+
+.submit-info ul {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 0 0 0;
+	margin: 18px 0 0 0;
+}
+
+.submit-buttons {
+	float:right;
+	vertical-align: middle;
+	margin: 23px 15px 0 0;
+}
+
+.submit-buttons a {
+	text-decoration: none;
+}
+
+.submit-buttons a:first-of-type {
+	font-size: 11px;
+	color: #e9008c;
+	padding: 5px 15px 5px 15px;
+	border:1px solid #e9008c;
+	border-radius: 4px;
+	margin:0 26px 0 0;
+}
+
+.submit-buttons a:nth-child(2) {
+	font-size: 30px;
+	color: #41b94a;
+	vertical-align: middle;
+	margin:0 26px 0 0;	
+}
+
+.submit-buttons a:last-of-type {
+	font-size: 30px;
+	color: #f0677d;
+	vertical-align: middle;
+}
+
+.ad-entry button i {
+	padding: 0 10px 0 0;
+}
+
+/*APPROVED*/
+
+.approved-buttons {
+	float:right;
+	vertical-align: middle;
+	margin: 23px 15px 0 0;
+}
+
+.approved-buttons a {
+	text-decoration: none;
+}
+
+.approved-buttons a {
+	font-size: 20px;
+	color: #f0677d;
+	vertical-align: middle;
+}
+
+.approved-displayed {
+	color: #41b94a;
+}
+
+.approved-displayed i {
+	margin:0 10px 0 0;
+	vertical-align: middle;
+}
+
+.approved-displayed span {
+	margin:0 10px 0 0;
+	vertical-align: middle;
+}
+
+.approved-undisplayed {
+	color: #d2d2d2;
+}
+
+.approved-undisplayed i {
+	margin:0 10px 0 0;
+}
+
+.approved-undisplayed span {
+	margin:0 10px 0 0;
+	vertical-align: middle;
+}
+
