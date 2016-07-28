@@ -8,41 +8,22 @@
 }
 */
 
-/*.ad {
-	margin:30px 0 0 50px;
-}
-*/
-.header {
+h1 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	color:#23282d;
-	margin: 0 0 30px 0;
+	margin:0 0 0 0;
+	opacity:0.8;
 }
 
 .ad-box {
 	border:1px solid #dddddd;
-	padding: 0 0 0 0;
-	margin:0 10px 0 0;
-	position: relative;
-}
-
-.ad-box2 {
-	border:1px solid #dddddd;
-	padding: 0 0 0 0;
-	margin: -85px 10px 0 0;
-	position: relative;
-}
-
-.ad-box3 {
-	border:1px solid #dddddd;
-	padding: 0 0 0 0;
-	margin: -60px 10px 0 0;
+	padding: 15px 0 0 0;
+/*	margin:0 10px 0 0;*/
 	position: relative;
 }
 
 .ad-section {
 	background-color:#acacac;
-	margin: 0 0 10px 0;
+/*	margin: 0 0 10px 0;*/
 	padding:10px 10px 15px 15px;
 	border:none; 
 }
@@ -154,7 +135,7 @@
 	border-radius:5px;
 	border-style:dashed;
 	padding: 10px 60px 10px 60px;
-	margin: 0 0 15px 0;
+	margin: 10px 0 0 0;
 	vertical-align: middle;
 }
 
@@ -172,6 +153,10 @@
 }
 
 /*SUBMIT*/
+
+.submitted {
+	border:1px solid #dddddd;
+}
 
 .submit {
 	margin: 0 0 30px 0;
@@ -264,7 +249,7 @@
 }
 
 .submit-info {
-	border:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
 	padding: 0 0 15px 0;
 }
 
@@ -312,6 +297,10 @@
 
 /*APPROVED*/
 
+.approved {
+	border:1px solid #dddddd;	
+}
+
 .approved-buttons {
 	float:right;
 	vertical-align: middle;
@@ -357,6 +346,10 @@
 	font-family: 'Open Sans', sans-serif;
 	margin:0 10px 0 0;
 	vertical-align: middle;
+}
+
+.second-col {
+	padding-top:18px;
 }
 
 

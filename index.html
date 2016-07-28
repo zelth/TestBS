@@ -1,383 +1,389 @@
 <!DOCTYPE html>
 <html>
-<head>
-	
-	<meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Publisher</title>
-		<link rel="stylesheet" type="text/css" href="less/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="less/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="less/style.css">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ad Manager</title>
+      <link rel="stylesheet" type="text/css" href="less/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="less/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="less/style.css">
+   </head>
+   <body>
+      <div class="container-fluid">
+            
+         <div class="row">
+                  <!-- Layout has 2 columns. First col-md-6 is is the first column. Take note that from the design, on the first column, only the ad sections are inlcuded -->
+                  
+            <div class="col-md-6">
 
-</head>
-<body>
-
-<!-- 	<div class="row"> ad section 1 -->
-		<div class="container-fluid">
-			<div class="header">
-				<h1>Ad Manager</h1>
-			</div> 
-			<div class="col-md-5 ad-box">
-				<div class="ad-section">
-					<p>Ad section 1</p>
-					<p>(2/3)</p>
-					<div class="btn-group">
-						<button class="btn btn-success btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						  Top of Mind <span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu">
-						  <li>test</li>
-						  <li>test2</li>
-						  <li>test3</li>
-						</ul>
-						<a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-					</div>
-				</div>
-				<div class="publish-bg">
-					<div class="entry-bg">	
-						<div class="ad-entry">
-							<div>
-								<img src="images/bk-avatar.png">
-								<p>Name</p>	
-							</div>
-							<div>
-								<ul>
-									<li><p>Ad Name 1</p></li>
-									<li><img src="images/bk-content.png"></li>
-									<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-								</ul>
-								<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
-							</div>
-						</div>
-					</div>		
-				</div>
-
-				<div class="publish-bg">
-					<div class="entry-bg">	
-						<div class="ad-entry">
-							<div>
-								<img src="images/bk-avatar.png">
-								<p>Name</p>	
-							</div>
-							<div>
-								<ul>
-									<li><p>Ad Name 1</p></li>
-									<li><img src="images/bk-content.png"></li>
-									<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-								</ul>
-								<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
-							</div>
-						</div>
-					</div>		
-				</div>
-
-
-				<div class="file-type">
-	        <label class="btn btn-default">
-	            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new ad <input type="file" style="display: none;">
-	        </label>
-				</div>
-				
-			</div> <!-- ad-box -->
-		<div class="container submit">
-			<div class="col-md-6 submit-section">
-				<p>Submitted Ads</p>
-<!-- 				<p>(2/3)</p> -->
-				<div>
-					<a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-				</div>
-			</div>
-			<div class="submit-bg">	
-				<div class="col-md-6 submit-entry">
-					<div class="submit-name">
-						<img src="images/bk-avatar.png">
-						<p>Name</p>	
-					</div>
-					<div class="submit-info">
-						<div class="submit-content">
-							<p>Ad name 1</p>
-						</div>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-						</ul>
-						<div class="submit-buttons">
-							<a href="">SOV</a>
-							<a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="submit-bg">	
-				<div class="col-md-6 submit-entry">
-					<div class="submit-name">
-						<img src="images/bk-avatar.png">
-						<p>Name</p>	
-					</div>
-					<div class="submit-info">
-						<div class="submit-content">
-							<p>Ad name 1</p>
-						</div>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-						</ul>
-						<div class="submit-buttons">
-							<a href="">SOV</a>
-							<a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="submit-bg">	
-				<div class="col-md-6 submit-entry">
-					<div class="submit-name">
-						<img src="images/bk-avatar.png">
-						<p>Name</p>	
-					</div>
-					<div class="submit-info">
-						<div class="submit-content">
-							<p>Ad name 1</p>
-						</div>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-						</ul>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
-						</ul>
-						<div class="submit-buttons">
-							<a href="">SOV</a>
-							<a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="submit-bg">	
-				<div class="col-md-6 submit-entry">
-					<div class="submit-name">
-						<img src="images/bk-avatar.png">
-						<p>Name</p>	
-					</div>
-					<div class="submit-info">
-						<div class="submit-content">
-							<p>Ad name 1</p>
-						</div>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-						</ul>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
-						</ul>
-						<div class="submit-buttons">
-							<a href="">SOV</a>
-							<a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>	
-<!-- 		</div> container -->
-<!-- 	</div> add section 1 -->
-
-<!-- 	<div class="row"> ad section 2 -->
-<!-- 		<div class="container-fluid"> -->
-			<div class="col-md-5 ad-box2">
-				<div class="ad-section">
-					<p>Ad section 1</p>
-					<p>(2/3)</p>
-					<div class="btn-group">
-						<button class="btn btn-success btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						  Share of voice <span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu">
-						  <li>test</li>
-						  <li>test2</li>
-						  <li>test3</li>
-						</ul>
-						<a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-					</div>
-				</div>
-				<div class="publish-bg">
-					<div class="entry-bg">	
-						<div class="ad-entry">
-							<div>
-								<img src="images/bk-avatar.png">
-								<p>Name</p>	
-							</div>
-							<div>
-								<ul>
-									<li><p>Ad Name 1</p></li>
-									<li><img src="images/bk-content.png"></li>
-									<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-								</ul>
-								<ul>
-									<li><p>Ad Name 1</p></li>
-									<li><img src="images/bk-content.png"></li>
-									<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-								</ul>
-								<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
-							</div>
-						</div>
-					</div>		
-				</div>
-
-				<div class="file-type">
-	        <label class="btn btn-default">
-	            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new ad <input type="file" style="display: none;">
-	        </label>
-				</div> 
-			</div> <!-- ad-box -->
-	<div class="container submit">			
-			<div class="col-md-6 submit-section">
-				<p>Approved Ads</p>
-<!-- 				<p>(2/3)</p> -->
-				<div>
-					<a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-				</div>
-			</div>
-			<div class="submit-bg">	
-				<div class="col-md-6 submit-entry">
-					<div class="submit-name">
-						<img src="images/bk-avatar.png">
-						<p>Name</p>	
-					</div>
-					<div class="submit-info">
-						<div class="submit-content">
-							<p>Ad name 1</p>
-						</div>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-						</ul>
-						<div class="approved-buttons">
-							<div class="approved-displayed">
-								<i class="fa fa-eye" aria-hidden="true"></i><span>Ad section 1</span>
-							</div>
-							<a href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="submit-bg">	
-				<div class="col-md-6 submit-entry">
-					<div class="submit-name">
-						<img src="images/bk-avatar.png">
-						<p>Name</p>	
-					</div>
-					<div class="submit-info">
-						<div class="submit-content">
-							<p>Ad name 1</p>
-						</div>
-						<ul>
-							<li><img src="images/bk-content.png"></li>
-							<li><a href="" class="disab
-							led"><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-						</ul>
-						<div class="approved-buttons">
-							<div class="approved-undisplayed">
-								<i class="fa fa-eye-slash" aria-hidden="true"></i><span>Undisplayed</span>
-							</div>
-							<a href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-	</div>			
-<!-- 		</div> container -->
-	<!-- </div> add section 2 -->
-
-<!-- 	<div class="row"> ad section 3 -->
-<!-- 		<div class="container ad"> -->
-			<div class="col-md-5 ad-box3">
-				<div class="ad-section">
-					<p>Ad section 1</p>
-					<p>(2/3)</p>
-					<div class="btn-group">
-						<button class="btn btn-success btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						  Share of voice <span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu">
-						  <li>test</li>
-						  <li>test2</li>
-						  <li>test3</li>
-						</ul>
-						<a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-					</div>
-				</div>
-				<div class="publish-bg">
-					<div class="entry-bg">	
-						<div class="ad-entry">
-							<div>
-								<img src="images/bk-avatar.png">
-								<p>Name</p>	
-							</div>
-							<div>
-								<ul>
-									<li><p>Ad Name 1</p></li>
-									<li><img src="images/bk-content.png"></li>
-									<li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>	
-								</ul>
-								<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
-							</div>
-						</div>
-					</div>		
-				</div>
-
-				<div class="file-type">
-	        <label class="btn btn-default">
-	            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new ad <input type="file" style="display: none;">
-	        </label>
-				</div> 
-
-			</div> <!-- ad-box -->
-		</div>
-<!-- 	</div> add section 3 -->
-
-
-<script src="js/jquery-1.12.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-$(function() {
-
-  // We can attach the `fileselect` event to all file inputs on the page
-  $(document).on('change', ':file', function() {
-    var input = $(this),
-        numFiles = input.get(0).files ? input.get(0).files.length : 1,
-        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-    input.trigger('fileselect', [numFiles, label]);
-  });
-
-  // We can watch for our custom `fileselect` event like this
-  $(document).ready( function() {
-      $(':file').on('fileselect', function(event, numFiles, label) {
-
-          var input = $(this).parents('.input-group').find(':text'),
-              log = numFiles > 1 ? numFiles + ' files selected' : label;
-
-          if( input.length ) {
-              input.val(log);
-          } else {
-              if( log ) alert(log);
-          }
-
-      });
-  });
-  
-});
-</script>
-
-
-
-
-</body>
+            	<h1>Ad Manager</h1>
+                       
+               <div class="ad-section">
+                  <p>Ad section 1</p>
+                  <p>(2/3)</p>
+                  <div class="btn-group">
+                     <button class="btn btn-success btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Top of Mind <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu">
+                        <li>test</li>
+                        <li>test2</li>
+                        <li>test3</li>
+                     </ul>
+                     <a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+               <div class="ad-box">
+                  <div class="publish-bg">
+                     <div class="entry-bg">
+                        <div class="ad-entry">
+                           <div>
+                              <img src="images/bk-avatar.png">
+                              <p>Name</p>
+                           </div>
+                           <div>
+                              <ul>
+                                 <li>
+                                    <p>Ad Name 1</p>
+                                 </li>
+                                 <li><img src="images/bk-content.png"></li>
+                                 <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                              </ul>
+                              <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="publish-bg">
+                     <div class="entry-bg">
+                        <div class="ad-entry">
+                           <div>
+                              <img src="images/bk-avatar.png">
+                              <p>Name</p>
+                           </div>
+                           <div>
+                              <ul>
+                                 <li>
+                                    <p>Ad Name 1</p>
+                                 </li>
+                                 <li><img src="images/bk-content.png"></li>
+                                 <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                              </ul>
+                              <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="file-type">
+                     <label class="btn btn-default">
+                     <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new ad <input type="file" style="display: none;">
+                     </label>
+                  </div>
+                        
+               </div>
+                        
+                           
+               <div class="ad-section">
+                  <p>Ad section 1</p>
+                  <p>(2/3)</p>
+                  <div class="btn-group">
+                     <button class="btn btn-success btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Share of voice <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu">
+                        <li>test</li>
+                        <li>test2</li>
+                        <li>test3</li>
+                     </ul>
+                     <a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+               <div class="ad-box">
+                  <div class="publish-bg">
+                     <div class="entry-bg">
+                        <div class="ad-entry">
+                           <div>
+                              <img src="images/bk-avatar.png">
+                              <p>Name</p>
+                           </div>
+                           <div>
+                              <ul>
+                                 <li>
+                                    <p>Ad Name 1</p>
+                                 </li>
+                                 <li><img src="images/bk-content.png"></li>
+                                 <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                              </ul>
+                              <ul>
+                                 <li>
+                                    <p>Ad Name 1</p>
+                                 </li>
+                                 <li><img src="images/bk-content.png"></li>
+                                 <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                              </ul>
+                              <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="file-type">
+                     <label class="btn btn-default">
+                     <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new ad <input type="file" style="display: none;">
+                     </label>
+                  </div>
+                        
+               </div>
+                        
+               <div class="ad-section">
+                  <p>Ad section 1</p>
+                  <p>(2/3)</p>
+                  <div class="btn-group">
+                     <button class="btn btn-success btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Share of voice <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu">
+                        <li>test</li>
+                        <li>test2</li>
+                        <li>test3</li>
+                     </ul>
+                     <a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+               <div class="ad-box">
+                  <div class="publish-bg">
+                     <div class="entry-bg">
+                        <div class="ad-entry">
+                           <div>
+                              <img src="images/bk-avatar.png">
+                              <p>Name</p>
+                           </div>
+                           <div>
+                              <ul>
+                                 <li>
+                                    <p>Ad Name 1</p>
+                                 </li>
+                                 <li><img src="images/bk-content.png"></li>
+                                 <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                              </ul>
+                              <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle" aria-hidden="true"></i>Remove</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="file-type">
+                     <label class="btn btn-default">
+                     <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new ad <input type="file" style="display: none;">
+                     </label>
+                  </div>
+                         
+               </div>
+                     
+            </div>
+                  
+                  <!-- Second col-md-6 is is the second column -->
+                  
+            <div class="col-md-6 second-col">
+                        
+                           
+               <div class="submit-section">
+                  <p>Submitted Ads</p>
+                  <div>
+                     <a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+               <div class="submitted">
+                  <div class="submit-bg">
+                     <div class="submit-entry">
+                        <div class="submit-name">
+                           <img src="images/bk-avatar.png">
+                           <p>Name</p>
+                        </div>
+                        <div class="submit-info">
+                           <div class="submit-content">
+                              <p>Ad name 1</p>
+                           </div>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <div class="submit-buttons">
+                              <a href="">SOV</a>
+                              <a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
+                              <a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="submit-bg">
+                     <div class="submit-entry">
+                        <div class="submit-name">
+                           <img src="images/bk-avatar.png">
+                           <p>Name</p>
+                        </div>
+                        <div class="submit-info">
+                           <div class="submit-content">
+                              <p>Ad name 1</p>
+                           </div>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <div class="submit-buttons">
+                              <a href="">SOV</a>
+                              <a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
+                              <a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="submit-bg">
+                     <div class="submit-entry">
+                        <div class="submit-name">
+                           <img src="images/bk-avatar.png">
+                           <p>Name</p>
+                        </div>
+                        <div class="submit-info">
+                           <div class="submit-content">
+                              <p>Ad name 1</p>
+                           </div>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <div class="submit-buttons">
+                              <a href="">SOV</a>
+                              <a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
+                              <a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="submit-bg">
+                     <div class="submit-entry">
+                        <div class="submit-name">
+                           <img src="images/bk-avatar.png">
+                           <p>Name</p>
+                        </div>
+                        <div class="submit-info">
+                           <div class="submit-content">
+                              <p>Ad name 1</p>
+                           </div>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <div class="submit-buttons">
+                              <a href="">SOV</a>
+                              <a href=""><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
+                              <a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+                        
+                        
+                       
+               <div class="submit-section">
+                  <p>Approved Ads</p>
+                  <div>
+                     <a href=""><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+               <div class="approved">
+                  <div class="submit-bg">
+                     <div class="submit-entry">
+                        <div class="submit-name">
+                           <img src="images/bk-avatar.png">
+                           <p>Name</p>
+                        </div>
+                        <div class="submit-info">
+                           <div class="submit-content">
+                              <p>Ad name 1</p>
+                           </div>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href=""><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <div class="approved-buttons">
+                              <div class="approved-displayed">
+                                 <i class="fa fa-eye" aria-hidden="true"></i><span>Ad section 1</span>
+                              </div>
+                              <a href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="submit-bg">
+                     <div class="submit-entry">
+                        <div class="submit-name">
+                           <img src="images/bk-avatar.png">
+                           <p>Name</p>
+                        </div>
+                        <div class="submit-info">
+                           <div class="submit-content">
+                              <p>Ad name 1</p>
+                           </div>
+                           <ul>
+                              <li><img src="images/bk-content.png"></li>
+                              <li><a href="" class="disab
+                                 led"><i class="fa fa-external-link" aria-hidden="true"></i>Ad link</a></li>
+                           </ul>
+                           <div class="approved-buttons">
+                              <div class="approved-undisplayed">
+                                 <i class="fa fa-eye-slash" aria-hidden="true"></i><span>Undisplayed</span>
+                              </div>
+                              <a href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+                        
+                     
+            </div>
+               
+         </div>
+      </div>
+      <script src="js/jquery-1.12.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+         $(function() {
+         
+           // We can attach the `fileselect` event to all file inputs on the page
+           $(document).on('change', ':file', function() {
+             var input = $(this),
+                 numFiles = input.get(0).files ? input.get(0).files.length : 1,
+                 label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+             input.trigger('fileselect', [numFiles, label]);
+           });
+         
+           // We can watch for our custom `fileselect` event like this
+           $(document).ready( function() {
+               $(':file').on('fileselect', function(event, numFiles, label) {
+         
+                   var input = $(this).parents('.input-group').find(':text'),
+                       log = numFiles > 1 ? numFiles + ' files selected' : label;
+         
+                   if( input.length ) {
+                       input.val(log);
+                   } else {
+                       if( log ) alert(log);
+                   }
+         
+               });
+           });
+           
+         });
+      </script>
+   </body>
 </html>
