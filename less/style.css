@@ -15,9 +15,9 @@ h1 {
 }
 
 .ad-box {
+	background-color:#f9f9f9;
 	border:1px solid #dddddd;
 	padding: 15px 0 0 0;
-/*	margin:0 10px 0 0;*/
 	position: relative;
 }
 
@@ -282,7 +282,7 @@ h1 {
 
 .submit-buttons a:nth-child(2) {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 24px;
 	color: #41b94a;
 	vertical-align: middle;
 	margin:0 10px 0 0;	
@@ -290,7 +290,7 @@ h1 {
 
 .submit-buttons a:last-of-type {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 24px;
 	color: #f0677d;
 	vertical-align: middle;
 }
@@ -307,35 +307,34 @@ h1 {
 	margin: 23px 15px 0 0;
 }
 
-.approved-buttons a {
-	font-family: 'Open Sans', sans-serif;
-	text-decoration: none;
-}
 
 .approved-buttons a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: #f0677d;
 	vertical-align: middle;
+	text-decoration: none;
 }
 
 .approved-displayed {
 	color: #41b94a;
+	padding: 6px 20px 0 0;
 }
 
 .approved-displayed i {
+
 	margin:0 10px 0 0;
-	vertical-align: middle;
+
 }
 
 .approved-displayed span {
 	font-family: 'Open Sans', sans-serif;
 	margin:0 10px 0 0;
-	vertical-align: middle;
 }
 
 .approved-undisplayed {
 	color: #d2d2d2;
+	padding: 6px 20px 0 0;
 }
 
 .approved-undisplayed i {
@@ -345,7 +344,6 @@ h1 {
 .approved-undisplayed span {
 	font-family: 'Open Sans', sans-serif;
 	margin:0 10px 0 0;
-	vertical-align: middle;
 }
 
 .second-col {
