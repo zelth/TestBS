@@ -28,16 +28,10 @@ h1 {
 	border:none; 
 }
 
-.btn-group button {
+.drop-button {
 	font-family: 'Open Sans', sans-serif;
 	padding: 3px 8px 3px 8px;
-
 }
-
-.dropdown-menu {
-	background-color:#5cb85c;
-}
-
 
 .ad-section p {
 	font-family: 'Open Sans', sans-serif;
