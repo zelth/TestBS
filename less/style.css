@@ -260,9 +260,7 @@ h1 {
 	margin: 23px 15px 0 0;
 }
 
-.submit-buttons a {
-	text-decoration: none;
-}
+
 
 .submit-buttons a:first-of-type {
 	font-family: 'Open Sans', sans-serif;
@@ -343,5 +341,133 @@ h1 {
 .second-col {
 	padding-top:18px;
 }
+
+/*Ad-pub view*/
+
+
+.ad-section button i {
+	margin: 0 0 0 10px;
+}
+
+.publish-form {
+	margin: 0 0 15px 15px;
+}
+
+label {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 5px 0 0;
+}
+
+.form-inline .form-control {
+	font-family: 'Open Sans', sans-serif;
+	width: 200px;
+}
+
+.publish-info {
+	margin: 0 0 10px 15px;
+}
+
+
+.publish-info p {
+	display: inline;
+}
+
+
+.publish-image {
+	margin: 0 0 0 15px;
+}
+
+
+.publish-image div {
+	display: inline-block;
+	width: 20%;
+}
+
+.publish-image div:first-of-type {
+/*	float: left;*/
+}
+
+.publish-image div:first-child img {
+	border:1px solid black;
+	margin:0 0 10px 0;
+}
+
+.publish-image div:first-child a {
+	text-decoration: none;
+	color: #dddddd;
+	border:1px solid #dddddd;
+	border-radius: 2px;
+	padding: 3px 57px 3px 7px;
+
+}
+
+.publish-image div:first-child a:hover {
+	color:#000;
+}
+
+.publish-image div:last-of-type {
+	float: right;
+	margin: 0 195px 0 0;
+/*	padding: 50px 50px 50px 50px;*/
+}
+
+.publish-image div:last-of-type img {
+	padding: 20px 70px 20px 70px;
+	border:3px solid #dedede;
+	border-style:dashed;
+	border-radius: 5px;
+}
+
+
+.publish-button {
+	text-align: center;
+	margin: 22px 0 20px 0;
+}
+
+.publish-button a {
+	font-family: 'Open Sans', sans-serif;
+	padding: 7px 60px 7px 60px;
+	color: #fff;
+	font-weight: 200;
+	font-size: 22px;
+	text-decoration: none;
+	background-color: #eb3491;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+/*Awaiting approval*/
+
+.approval-buttons {
+	float:right;
+	vertical-align: middle;
+	margin: 23px 15px 0 0;
+}
+
+
+.approval-buttons a {
+	text-decoration: none;
+}
+
+
+.approval-buttons a:first-of-type {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	background-color:#c6c6c6;
+	padding: 7px 15px 7px 15px;
+	border-radius: 4px;
+	margin:0 15px 0 0;
+}
+
+.approval-buttons a:last-of-type {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #f0677d;
+	vertical-align: middle;
+}
+
+
+
 
 
