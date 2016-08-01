@@ -270,6 +270,7 @@ h1 {
 	border:1px solid #e9008c;
 	border-radius: 4px;
 	margin:0 10px 0 0;
+	text-decoration: none;
 }
 
 .submit-buttons a:nth-child(2) {
@@ -277,7 +278,8 @@ h1 {
 	font-size: 24px;
 	color: #41b94a;
 	vertical-align: middle;
-	margin:0 10px 0 0;	
+	margin:0 10px 0 0;
+
 }
 
 .submit-buttons a:last-of-type {
