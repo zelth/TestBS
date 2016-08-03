@@ -123,7 +123,7 @@ h1 {
 	margin: 0 10px 0 10px;
 }
 
-.btn-default {
+/*.btn-default {
 	color: #919191;
 	border:2px solid #dedede;
 	border-radius:5px;
@@ -145,6 +145,7 @@ h1 {
 .file-type {
 	text-align: center;
 }
+*/
 
 /*SUBMIT*/
 
@@ -374,16 +375,22 @@ label {
 	display: inline;
 }
 
+.publish-info p:last-of-type {
+	font-style: italic;
+	color: #c1c1c1;
+}
+
+
 
 .publish-image {
 	margin: 0 0 0 15px;
 }
 
 
-.publish-image div {
+/*.publish-image div {
 	display: inline-block;
 	width: 20%;
-}
+}*/
 
 .publish-image div:first-of-type {
 /*	float: left;*/
@@ -403,15 +410,29 @@ label {
 
 }
 
+.publish-image div:nth-child(2) img {
+	border:1px solid black;
+	margin:0 0 10px 0;
+}
+
+.publish-image div:nth-child(2) a {
+	text-decoration: none;
+	color: #dddddd;
+	border:1px solid #dddddd;
+	border-radius: 2px;
+	padding: 3px 57px 3px 7px;
+
+}
+
 .publish-image div:first-child a:hover {
 	color:#000;
 }
 
-.publish-image div:last-of-type {
+/*.publish-image div:last-of-type {
 	float: right;
 	margin: 0 195px 0 0;
-/*	padding: 50px 50px 50px 50px;*/
-}
+	padding: 50px 50px 50px 50px;
+}*/
 
 .publish-image div:last-of-type img {
 	padding: 20px 70px 20px 70px;
@@ -447,27 +468,149 @@ label {
 }
 
 
-.approval-buttons a {
-	text-decoration: none;
-}
-
-
-.approval-buttons a:first-of-type {
+.approval-buttons p {
 	font-family: 'Open Sans', sans-serif;
+	display: inline;
 	font-size: 12px;
 	color: #fff;
 	background-color:#c6c6c6;
 	padding: 7px 15px 7px 15px;
 	border-radius: 4px;
-	margin:0 15px 0 0;
+	margin:0 15px 0 0;	
 }
 
-.approval-buttons a:last-of-type {
+.approval-buttons a {
+	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 	color: #f0677d;
 	vertical-align: middle;
 }
+
+.input-group {
+	width: 232px;
+}
+
+.input-group input {
+	border-radius: 100px;
+}
+
+.input-group .form-control:last-child {
+	border-radius: 5px;
+}
+
+/*Modal*/
+
+.modal-wrapper {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.modal-button {
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+.modal-button button {
+	color: #919191;
+	background-color: transparent;
+	padding: 10px 60px;
+	border:2px solid #dadada;
+	border-style: dashed;
+}
+
+.modal-title {
+	margin: 40px 0 40px 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+.modal-header {
+	border:none;
+	padding: 0 0 0 0;
+}
+
+.modal-header div {
+	margin: 0 0 20px 50px;
+}
+
+.modal-base p:nth-child(2) {
+	font-size: 17px;
+	font-weight: bold !important;
+}
+
+.modal-header div p {
+	font-size: 15px;
+	display: inline;
+}
+
+.modal-body {
+	border-top:1px solid #dddddd;
+	margin: 0 50px 0 50px;
+	padding: 15px 0 15px 0;
+}
+
+.modal-body div div:first-child {	
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.modal-body div div:first-child input {
+	margin: 0 30px 0 0;
+	font-size:60px;
+}
+
+.modal-body div div:first-child p {
+	display: inline;
+}
+
+.modal-body div div:first-child p:first-of-type {
+	margin: 0 40px 0 0;
+}
+
+.modal-body div div:first-child p:last-of-type {
+	margin: 35px 0 0 0;
+	font-style: italic;
+	color: #acacac;
+}
+
+.modal-body div div:nth-child(2) img {
+	width: 100px;
+	height: 40px;
+	display: inline;
+	margin: 0 10px 0 0;
+}
+
+.modal-body div div:nth-child(2) {
+	text-align: center;
+}
+
+.modal-body div div:last-child {
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+
+.modal-body div div:last-child a {
+	font-size: 11px;
+	color: #e9008c;
+	padding: 5px 20px 5px 20px;
+	border:1px solid #e9008c;
+	border-radius: 4px;
+	margin:20px 0 0 0;
+	text-decoration: none;
+}
+
+.modal-footer {
+	border-top:1px solid #dddddd;
+	margin: 0 50px 0 50px;
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+.modal-header .close {
+	margin: 10px 15px 0 0;
+}
+
 
 
 
