@@ -283,11 +283,12 @@ h1 {
 
 }
 
-.submit-buttons a:last-of-type {
-	font-family: 'Open Sans', sans-serif;
+.button-close {
+/*	font-family: 'Open Sans', sans-serif;*/
 	font-size: 24px;
 	color: #f0677d;
 	vertical-align: middle;
+	cursor: pointer;
 }
 
 /*APPROVED*/
@@ -303,12 +304,14 @@ h1 {
 }
 
 
-.approved-buttons a {
-	font-family: 'Open Sans', sans-serif;
+.button-trash {
+/*	font-family: 'Open Sans', sans-serif;*/
 	font-size: 20px;
 	color: #f0677d;
 	vertical-align: middle;
 	text-decoration: none;
+	cursor: pointer;
+	margin: 6px 0 0 0;
 }
 
 .approved-displayed {
@@ -356,6 +359,10 @@ h1 {
 	margin: 0 0 15px 15px;
 }
 
+.publish-form .form-group:first-child {
+	margin:0 29px 0 0;
+}
+
 label {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 5px 0 0;
@@ -363,7 +370,7 @@ label {
 
 .form-inline .form-control {
 	font-family: 'Open Sans', sans-serif;
-	width: 200px;
+	width: 300px;
 }
 
 .publish-info {
@@ -441,6 +448,16 @@ label {
 	border-radius: 5px;
 }
 
+.publish-image div:last-of-type img:hover {
+/*	background-color: #f9f9f9;*/
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.file-type input {
+	display: none;
+}
+
 
 .publish-button {
 	text-align: center;
@@ -479,12 +496,13 @@ label {
 	margin:0 15px 0 0;	
 }
 
-.approval-buttons a {
+.approval-buttons i {
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+/*	font-family: 'Open Sans', sans-serif;*/
 	font-size: 24px;
 	color: #f0677d;
 	vertical-align: middle;
+	cursor: pointer;
 }
 
 .input-group {
@@ -609,6 +627,19 @@ label {
 
 .modal-header .close {
 	margin: 10px 15px 0 0;
+}
+
+.button-confirm .modal-header {
+	padding: 25px 100px 25px 100px;
+}
+
+.adpub-modal {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -200px;
+    padding: 20px;
 }
 
 
